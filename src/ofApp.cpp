@@ -7,11 +7,22 @@ ofFbo Arte;
 void proceso()
 {
 	ofSetColor(0);
-	
-}
-//set a4 window, white background. 
-//export and ready
 
+	int margen = 50;
+	for (int y = margen+margen; y < ofGetWindowHeight() - margen; y += 15)
+	{
+		ofPolyline linea;
+		for (int x = margen; x < ofGetWindowWidth() - margen; x += 5)
+		{
+			int XY = y * x;
+			float deformacion = ofNoise(x * ofMap(x, margen, ofGetWindowWidth(), 0, 0.015), y * 0.01f) * ofMap(XY, margen, ofGetWindowWidth() * ofGetWindowHeight(), 0, 200);
+
+			linea.addVertex(x, y - deformacion);
+		}
+		linea.draw();
+	}
+
+}
 
 void ofApp::setup()
 {
@@ -20,7 +31,7 @@ void ofApp::setup()
 	ofRectangle r(0, 0, ofGetWindowWidth(), ofGetWindowHeight());
 	ofBeginSaveScreenAsSVG("Resultado.svg", false, false, r);
 	proceso();
-
+	//ofDrawCircle(50, 50, 20);
 	ofEndSaveScreenAsSVG();
 
 	Arte.allocate(ofGetWindowWidth(), ofGetWindowHeight(), GL_RGBA);
