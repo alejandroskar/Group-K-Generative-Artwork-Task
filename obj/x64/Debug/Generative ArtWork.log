@@ -1,0 +1,7 @@
+﻿  Examinando orígenes para las dependencias de módulo...
+  ofApp.cpp
+LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificación '/FORCE'
+     Creando biblioteca bin\Generative ArtWork_debug.lib y objeto bin\Generative ArtWork_debug.exp
+  Generative ArtWork.vcxproj -> C:\Users\Andreu\Documents\Open Frameworks\Repositorios Brunos\Generative ArtWork\bin\Generative ArtWork_debug.exe
+  No se encuentra el archivo: *.dll
+  0 archivo(s) copiado(s)
