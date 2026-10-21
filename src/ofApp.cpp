@@ -12,7 +12,7 @@ void proceso()
 	for (int y = margen+margen; y < ofGetWindowHeight() - margen; y += 15)
 	{
 		ofPolyline linea;
-		for (int x = margen; x < ofGetWindowWidth() - margen; x += 5)
+		for (int x = margen; x < ofGetWindowWidth() - margen; x++)
 		{
 			//float deformacion = ofNoise(x * 0.005f, y * 0.01f) * 100.0f;
 

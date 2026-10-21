@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andreu\\Documents\\Open Frameworks\\Repositorios Brunos\\Group-K-Generative-Artwork-Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD42DF7-442E-479A-BA76-D0022F99702A}|Generative ArtWork.vcxproj|C:\\Users\\Andreu\\Documents\\Open Frameworks\\Repositorios Brunos\\Group-K-Generative-Artwork-Task\\src\\ofApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7FD42DF7-442E-479A-BA76-D0022F99702A}|Generative ArtWork.vcxproj|solutionrelative:src\\ofApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD42DF7-442E-479A-BA76-D0022F99702A}|Generative ArtWork.vcxproj|C:\\Users\\Andreu\\Documents\\Open Frameworks\\Repositorios Brunos\\Group-K-Generative-Artwork-Task\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7FD42DF7-442E-479A-BA76-D0022F99702A}|Generative ArtWork.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ofApp.cpp",
+              "DocumentMoniker": "C:\\Users\\Andreu\\Documents\\Open Frameworks\\Repositorios Brunos\\Group-K-Generative-Artwork-Task\\src\\ofApp.cpp",
+              "RelativeDocumentMoniker": "src\\ofApp.cpp",
+              "ToolTip": "C:\\Users\\Andreu\\Documents\\Open Frameworks\\Repositorios Brunos\\Group-K-Generative-Artwork-Task\\src\\ofApp.cpp",
+              "RelativeToolTip": "src\\ofApp.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T20:24:19.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Andreu\\Documents\\Open Frameworks\\Repositorios Brunos\\Group-K-Generative-Artwork-Task\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\Andreu\\Documents\\Open Frameworks\\Repositorios Brunos\\Group-K-Generative-Artwork-Task\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T20:24:24.539Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
