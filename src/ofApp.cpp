@@ -18,14 +18,12 @@ void proceso()
 
 
 			int XY = y * x;
-			float deformacion = ofNoise(x * ofMap(x, margen, ofGetWindowWidth(), 0, 0.015), y * 0.01f) * ofMap(XY, margen, ofGetWindowWidth() * ofGetWindowHeight(), 0, 200);
+			float deformacion = ofNoise(x * ofMap(x, margen, ofGetWindowWidth(), 0, 0.015), y * 0.01f) * ofMap(XY, 0, ofGetWindowWidth() * ofGetWindowHeight(), 0, 200);
 			//float deformacion = ofNoise(x * ofMap(XY, margen, ofGetWindowWidth() * ofGetWindowHeight(), 0, 0.015), y * 0.01f) * ofMap(XY, margen, ofGetWindowWidth() * ofGetWindowHeight(), 0, 200);
 
 
 			//float deformacion = ofNoise(x * ofMap(y, margen, ofGetWindowHeight(), 0, 0.015), y * 0.01f) * ofMap(x, margen, ofGetWindowWidth(), 0, 200);
 			//float deformacion = ofNoise(x * ofMap(x, margen, ofGetWindowWidth(), 0, 0.015), y * ofMap(y, margen, ofGetWindowHeight(), 0, 0.01f)) * ofMap(x, margen, ofGetWindowWidth(), 0, 200);
-
-
 			linea.addVertex(x, y - deformacion);
 		}
 		linea.draw();
